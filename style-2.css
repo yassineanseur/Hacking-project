@@ -1,0 +1,97 @@
+body {
+  max-width: 850px;
+  margin: 50px auto;
+  font-family: Open Sans,Palatino;
+  line-height: 1.4;
+  text-align: justify;
+  font-size: 16px;
+  color: #FDFEFE;
+}
+
+body {
+  background-color: #050100
+}
+
+.site-rouge {
+  color: red;
+}
+
+.mot-rouge {
+  color: red;
+  text-decoration: underline;
+}
+
+a {
+  color: green;
+  text-decoration: underline;
+
+  
+}
+
+
+a:hover {
+  color: purple;
+}
+
+.logo {
+  height: 20px;
+}
+
+.petit {
+  font-size: 12px;
+  font-family: monospace;
+}
+
+.carre::before {
+  content: "";
+  background-color: #454545;
+  width: 15px;
+  height: 15px;
+  margin-left: 3px;
+  margin-right: 3px;
+  display: inline-block;
+}
+
+.carre-2::before {
+  content: "";
+  background-color: #444;
+  width: 15px;
+  height: 15px;
+  margin-left: 3px;
+  margin-right: 3px;
+  display: inline-block;
+}
+
+.deux-cote {
+  display: flex;
+  
+}
+
+.deux-cote figure {
+  margin: 0;
+}
+
+.deux-cote figure img {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 350px;
+}
+
+.deux-cote figure figcaption {
+  font-size: 10px;
+}
+
+.a-ligne {
+  display: flex;
+  width: 100%;
+  
+}
+
+.a-ligne .logo {
+  margin: auto;
+  height: 40px;
+}
+
+.visited {
+  color: purple;
+}
